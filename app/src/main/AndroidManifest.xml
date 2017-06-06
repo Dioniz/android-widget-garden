@@ -19,6 +19,8 @@
                 android:resource="@xml/plant_widget_info" />
         </receiver>
 
+        <service android:name=".PlantWateringService" />
+
         <provider
             android:name=".provider.PlantContentProvider"
             android:authorities="com.example.android.mygarden"
